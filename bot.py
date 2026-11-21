@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 TOKEN = os.environ["BOT_TOKEN"]
-ADMIN_ID = int(os.environ["ADMIN_ID"])
+ADMIN_ID = int(os.environ["ADMIN_ID"])T
 WEBHOOK_SECRET = os.environ["WEBHOOK_SECRE"]
 
 DB = "nova.db"
